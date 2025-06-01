@@ -1,0 +1,9 @@
+{
+    "name": "BetterBunnyHood",
+    "version_number": "1.0.3",
+    "website_url": "https://github.com/LoadingErr/mm_recomp_better_bunny",
+    "description": "Makes the Bunny Hood a permanent toggle.",
+    "dependencies": [
+        "ProxyMM-ObjDepLoader-0.0.3"
+    ]
+}
