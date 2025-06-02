@@ -1,7 +1,7 @@
 {
-    "name": "Alternate Pronouns",
-    "version_number": "1.0.0",
-    "website_url": "https://github.com/LoadingErr/mm_recomp_better_bunny",
+    "name": "Alternate_Pronouns",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/LoadingErr/MMRecompPronounsMod",
     "description": "Replaces all instances of gendered language for Link.",
     "dependencies": [
         "LT_Schmiddy-EZ_Text_Replacer_API-2.0.1"

@@ -8,7 +8,7 @@
 id = "mm_recomp_pronouns"
 
 # Version of this mod.
-version = "1.0.0"
+version = "1.1.0"
 
 # The name that will show up for this mod in the mod menu. This should be human readable.
 display_name = "Female/Neutral Language"
@@ -62,8 +62,7 @@ additional_files = [ "thumb.dds" ]
 id = "gender_type"
 name = "Gender"
 description = """
-Select which set of gendered dialogue you prefer.
-SET THIS OPTION BEFORE LAUNCHING THE GAME!"""
+Select which set of gendered dialogue you prefer."""
 type = "Enum"
 options = [ "Female", "Non-binary" ]
 default = "Female"
