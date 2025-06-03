@@ -8,7 +8,7 @@
 id = "mm_recomp_pronouns"
 
 # Version of this mod.
-version = "1.0.1"
+version = "1.0.2"
 
 # The name that will show up for this mod in the mod menu. This should be human readable.
 display_name = "Female/Neutral Language"
@@ -17,6 +17,7 @@ display_name = "Female/Neutral Language"
 description =  """
 A mod that replaces all instances of gendered language referring
 to Link with appropriate female and gender-neutral counterparts.
+
 MAKE SURE YOU SELECT YOUR OPTION BEFORE LAUNCHING THE GAME!"""
 
 # A short description that will show up in this mod's entry in the mod list. This should be human readable and kept short

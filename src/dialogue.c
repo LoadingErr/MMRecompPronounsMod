@@ -12,6 +12,487 @@ typedef enum {
 EZTR_ON_INIT void replace_msgs() {
     if (CFG_GENDER_MODE == GENDER_TYPE_NB) {
         EZTR_Basic_ReplaceText(
+            0x0966,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E97W-Well, we haven't any time to|11lose...|11|13|12Quickly, Mx. |16, could you|11please find something to |01carry|00 me|11in so you can take me to the|11Deku Palace?|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0459,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "Heyyy! You don't have that much!|11You shouldn't lie to people!|11And you can take that to the|11bank, buddy!|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0969,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E97Hwh-Hwhy are you hwaiting?|11Mx. |01|16|00!|11|13|12Huh-Hurry! Ho-Hopen this |01bottle|11|00and release me right hwh-hwhere|11my father is standing.|1C|00|1E|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x096D,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E9|8CWhy yes, thanks to|11Mx. |16 here.|11I am very, truly grateful.|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x096F,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E9|8CIt seems our butler has taken|11somewhat of a liking to you,|11Mx. |16.|11|12I believe you'll find him waiting in|11the shrine that will be to your|11|01right|00 when you leave the palace.|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0971,
+            EZTR_STANDARD_TEXT_BOX_I,
+            16,
+            EZTR_ICON_DEKU_PRINCESS,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1Ei7Ungh! Mx. |01|16|00!|11There's nuh-no time to lose!|11Huh-Hurry! Take me to the palace!|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x28AA,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "Mx. |16, is it?|11One moment, please.|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x28AB,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "Mx. |16,|11I have you down for an afternoon|11arrival.|11|12Your room is our \"Knife Chamber\"|11on the |01second floor|00. Here is your|11|01key|00.|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x2952,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "Hello, Mx. Scrub.|11How about this rain?|11|13|12Do you scrubs feel sad on rainy|11days, too?|11|13|12....|11But Deku Scrubs are supposed to|11like rain. At least one of us has|11reason to be happy...|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0517,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "My apologies. It was wrong of|11me to treat you like a child.|11|13|12The southern swamp at |01Woodfall|11|00lies this way.|11Be careful.|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0519,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "My apologies. It was wrong of|11me to treat you like a child.|11|13|12The southern swamp at |01Woodfall|11|00lies in this direction.|11Be careful.|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0521,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "My apologies. It was wrong of|11me to treat you like a child.|11|13|12The mountains of |01Snowhead|00 lie|11this way.|11Be careful.|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0523,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "My apologies. It was wrong of|11me to treat you like a child.|11|13|12The mountains of |01Snowhead|00 lie|11this way.|11Be careful.|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x052B,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "My apologies. It was wrong of|11me to treat you like a child.|11|13|12At |01Great Bay|00, you can see clear|11to the |01ocean|00. It lies this way.|11Be careful.|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x052D,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "My apologies. It was wrong of|11me to treat you like a child.|11|13|12From |01Great Bay|00, you can see clear|11to the|01 ocean|00. It lies this way.|11Be careful.|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0535,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "My apologies. It was wrong of|11me to treat you like a child.|11|13|12The canyon at |01Stone Tower|00 lies|11this way.|11Be careful.|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0537,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "My apologies. It was wrong of|11me to treat you like a child.|11|13|12The canyon at |01Stone Tower|00 lies|11this way.|11Be careful.|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0548,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "My apologies. It was wrong of|11me to stop you. The mountains of|11|01Snowhead |00lie this way.|11Be careful.|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0614,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E:|D1Excuse me!|11|13|13|12I keep hearing about a stone|11called a |01Moon's Tear|00, and it's|11supposed to be the shiniest stone|11in the world!|10Do you have one?|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0616,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E:|D2Please, if you have a |01Moon's Tear|00,|11I must get it from you...And I'm|11not asking to get it for free!|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0619,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E8|81Oh, you've really helped me out!|11Now I have the perfect souvenir|11for my wife!|11|12She hasn't seen a jewel or|11strange, shining stone like this in|11quite a long time...Hee-hee!|11|12The |01Title Deed|00 for this spot will|11be in big demand by Deku Scrubs|11outside of town.|11|12You should be able to sell it to a|11Deku Scrub for a good price!|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0967,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E9|8BIt's Mx. |16, correct?|11You have strange powers,|11indeed...|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x15E9,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E:|D2Do you know what |02magic beans|11|00are?|11I'll sell you one for |0610 Rupees|00.|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x15FE,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E8|80|17Thanks for stopping by!|18|11I'm doing business with a focus on|11a Goron clientele. And that, friend,|11makes you a customer.|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x1D00,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1EiyWhat's this?|11Green clothes...White fairy...|11Could you, by chance, be a|11forest fairy?|10Oh my!|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x1D01,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1EizMy name is |06Tingle|00!|11I think I am the same as you, friend.|11A forest fairy!|11|12Alas, though I am already age 35,|11no fairy has come to me yet...|11|13|12My father tells me to grow up|11and act my age, but why?|11|13|12I tell you...Tingle is the very|11reincarnation of a fairy!|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x1D05,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1EiyHuh?...A white fairy?|11|13|13|12The way you look?|11Ohh...Magic, isn't it?|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x1D0A,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1Ei{But... you don't have enough|11|06Rupees|00!|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x1D0C,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1EiyExcuse me?|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x1D0D,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1EizHello, Mx. Fairy!|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x2735,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1Ei\\This training center is for|11studying the lowly sword...It is no|11place for one of your stature.|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x2931,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "Why was the...? Why was the...?|11Why was the dog the leader?!?|11Was it 'cause something was|11wrong with me???|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x2AF9,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "The bar opens at night.|11|13|13|12And it's members-only. We refuse|11people who don't have |01proof of|11membership|00.|11|12Well, now I'm getting things ready,|11so as long as you don't get in the|11way of my cleaning, you can stay.|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x2B09,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "Excuse me...It's the rules. Please|11wear your |01Romani's Mask|00 inside the bar.|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x2B0C,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "You don't have enough |06Rupees|00.|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x2B62,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "Mmm, kid, if you don't have any|11|06Rupees|00, you can't buy your|11dreams.|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x2B63,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "We are now exchanging|11winning tickets.|11|13|12If you'd like to buy a ticket, we'll|11start selling them tomorrow|11|01morning |00at|01 6 o'clock|00.|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
             0x3337,
             EZTR_STANDARD_TEXT_BOX_I,
             0,
@@ -2842,6 +3323,485 @@ EZTR_ON_INIT void replace_msgs() {
             EZTR_NO_VALUE,
             true,
             "|1Ei+Target shooting runs until|01 tonight|00,|11so why don't we let her play,|11Darling?|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0517,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "My apologies, ma'am. It was wrong of|11me to treat you like a child.|11|13|12The southern swamp at |01Woodfall|11|00lies this way.|11Be careful.|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0519,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "My apologies, ma'am. It was wrong of|11me to treat you like a child.|11|13|12The southern swamp at |01Woodfall|11|00lies in this direction.|11Be careful.|E0|BF",
+            NULL
+        );        EZTR_Basic_ReplaceText(
+            0x0521,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "My apologies, ma'am. It was wrong of|11me to treat you like a child.|11|13|12The mountains of |01Snowhead|00 lie|11this way.|11Be careful.|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0523,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "My apologies, ma'am. It was wrong of|11me to treat you like a child.|11|13|12The mountains of |01Snowhead|00 lie|11this way.|11Be careful.|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x052B,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "My apologies, ma'am. It was wrong of|11me to treat you like a child.|11|13|12At |01Great Bay|00, you can see clear|11to the |01ocean|00. It lies this way.|11Be careful.|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x052D,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "My apologies, ma'am. It was wrong of|11me to treat you like a child.|11|13|12From |01Great Bay|00, you can see clear|11to the|01 ocean|00. It lies this way.|11Be careful.|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0535,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "My apologies, ma'am. It was wrong of|11me to treat you like a child.|11|13|12The canyon at |01Stone Tower|00 lies|11this way.|11Be careful.|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0537,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "My apologies, ma'am. It was wrong of|11me to treat you like a child.|11|13|12The canyon at |01Stone Tower|00 lies|11this way.|11Be careful.|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0548,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "My apologies, ma'am. It was wrong of|11me to stop you. The mountains of|11|01Snowhead |00lie this way.|11Be careful.|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0614,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E:|D1Ma'am! Ma'am!|11|13|13|12I keep hearing about a stone|11called a |01Moon's Tear|00, and it's|11supposed to be the shiniest stone|11in the world!|10Do you have one?|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0616,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E:|D2Ma'am, if you have a |01Moon's Tear|00,|11I must get it from you...And I'm|11not asking to get it for free!|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0619,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E8|81Ma'am, you've really helped me out!|11Now I have the perfect souvenir|11for my wife!|11|12She hasn't seen a jewel or|11strange, shining stone like this in|11quite a long time...Hee-hee!|11|12The |01Title Deed|00 for this spot will|11be in big demand by Deku Scrubs|11outside of town.|11|12You should be able to sell it to a|11Deku Scrub for a good price!|E0|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0967,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E9|8BIt's Ms. |16, correct?|11You, ma'am, have strange powers,|11indeed...|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x15E9,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E:|D2Do you know what |02magic beans|11|00are, ma'am?|11I'll sell you one for |0610 Rupees|00.|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x15FE,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E8|80|17Thanks for stopping by!|18|11I'm doing business with a focus on|11a Goron clientele. And that, madam,|11makes you a customer.|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x1D00,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1EiyWhat's this?|11Green clothes...White fairy...|11Ma'am, could you, by chance, be a|11forest fairy?|10Oh my!|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x1D01,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1EizMy name is |06Tingle|00!|11I think I am the same as you, ma'am.|11A forest fairy!|11|12Alas, though I am already age 35,|11no fairy has come to me yet...|11|13|12My father tells me to grow up|11and act my age, but why?|11|13|12I tell you...Tingle is the very|11reincarnation of a fairy!|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x1D05,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1EiyHuh?...A white fairy?|11|13|13|12The way you look?|11Ohh...Magic, isn't it, ma'am?|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x1D0A,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1Ei{Ma'am... you don't have enough|11|06Rupees|00!|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x1D0C,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1EiyUh, ma'am?|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x1D0D,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1EizHello, Ms. Fairy!|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x2735,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1Ei\\This training center is for|11studying the lowly sword...It is no|11place for one of your stature, madam.|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x2931,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "Why was the...? Why was the...?|11Why was the dog the leader?!?|11Was it 'cause something was|11wrong with me, madam???|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x2AF9,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "Ma'am, the bar opens at night.|11|13|13|12And it's members-only. We refuse|11people who don't have |01proof of|11membership|00.|11|12Well, now I'm getting things ready,|11so as long as you don't get in the|11way of my cleaning, you can stay.|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x2B09,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "Ma'am...It's the rules. Please|11wear your |01Romani's Mask|00 inside the bar.|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x2B0C,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "You don't have enough |06Rupees|00, ma'am.|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x2B62,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "Mmm, ma'am, if you don't have any|11|06Rupees|00, you can't buy your|11dreams.|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x2B63,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "Ma'am, we are now exchanging|11winning tickets.|11|13|12If you'd like to buy a ticket, we'll|11start selling them tomorrow|11|01morning |00at|01 6 o'clock|00.|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0966,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E97W-Well, we haven't any time to|11lose...|11|13|12Quickly, Ms. |16, could you|11please find something to |01carry|00 me|11in so you can take me to the|11Deku Palace?|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0969,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E97Hwh-Hwhy are you hwaiting?|11Ms. |01|16|00!|11|13|12Huh-Hurry! Ho-Hopen this |01bottle|11|00and release me right hwh-hwhere|11my father is standing.|1C|00|1E|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x096D,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E9|8CWhy yes, thanks to|11Ms. |16 here.|11I am very, truly grateful.|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x096F,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1E9|8CIt seems our butler has taken|11somewhat of a liking to you,|11Ms. |16.|11|12I believe you'll find him waiting in|11the shrine that will be to your|11|01right|00 when you leave the palace.|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0971,
+            EZTR_STANDARD_TEXT_BOX_I,
+            16,
+            EZTR_ICON_DEKU_PRINCESS,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "|1Ei7Ungh! Ms. |01|16|00!|11There's nuh-no time to lose!|11Huh-Hurry! Take me to the palace!|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x28AA,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "Ms. |16, is it?|11One moment, please.|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x28AB,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "Ms. |16,|11I have you down for an afternoon|11arrival.|11|12Your room is our \"Knife Chamber\"|11on the |01second floor|00. Here is your|11|01key|00.|19|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x2952,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "Hello, Ms. Scrub.|11How about this rain?|11|13|12Do you scrubs feel sad on rainy|11days, too?|11|13|12....|11But Deku Scrubs are supposed to|11like rain. At least one of us has|11reason to be happy...|BF",
+            NULL
+        );
+
+        EZTR_Basic_ReplaceText(
+            0x0459,
+            EZTR_STANDARD_TEXT_BOX_I,
+            0,
+            EZTR_ICON_NO_ICON,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            EZTR_NO_VALUE,
+            true,
+            "Heyyy! You don't have that much!|11You shouldn't lie to people!|11And you can take that to the|11bank, missy!|19|BF",
             NULL
         );
     }
